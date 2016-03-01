@@ -41,7 +41,13 @@ class Subreddit extends Component {
 
 	render(){
 		return (
-			<div>{this.props.data.topics.map(this.subReddits)}</div>
+			<div>
+					<div className="subreddit-header-box">
+						<h3 className="subreddit-header">{`r/${this.props.params.subreddit}`}</h3>
+					</div>
+	
+				{this.props.data.topics.map(this.subReddits)}
+			</div>
 		)
 	}
 }

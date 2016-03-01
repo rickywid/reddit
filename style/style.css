@@ -37,6 +37,21 @@ footer {
 }
 
 .nav > li > a {}
+/*----------------------------------------------------------------------------- SUBREDDIT */
+.subreddit-header {
+	color: black;
+	font-size: 144%;
+	font-weight: bolder;
+	background-color: rgb(59, 202, 191);
+	padding: 7px 12px;
+	display: inline-block;
+	margin-top: 0;
+	margin-bottom: 22px;
+}
+
+.subreddit-header-box {
+	width: 100%;
+}
 
 .thumbnail {
 	width: 90%;
