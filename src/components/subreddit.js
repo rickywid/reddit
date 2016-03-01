@@ -43,6 +43,7 @@ class Subreddit extends Component {
 		return (
 			<div>
 					<div className="subreddit-header-box">
+						<p className="viewing">subreddit</p>
 						<h3 className="subreddit-header">{`r/${this.props.params.subreddit}`}</h3>
 					</div>
 	

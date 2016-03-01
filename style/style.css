@@ -38,8 +38,16 @@ footer {
 
 .nav > li > a {}
 /*----------------------------------------------------------------------------- SUBREDDIT */
+.viewing {
+	color: rgb(121, 121, 121);
+	display: inline-block;
+	font-weight: bolder;
+	margin-right: 10px;
+}
+
 .subreddit-header {
-	color: black;
+	display: inline-block;
+	color: rgb(37, 37, 37);
 	font-size: 144%;
 	font-weight: bolder;
 	background-color: rgb(59, 202, 191);
