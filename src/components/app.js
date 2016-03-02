@@ -38,7 +38,7 @@ class App extends Component {
 				<div className="container-fluid">
 
 					<div className="navbar-header">
-						<Link className="navbar-brand" to="/reddit">REDDIT-CLONE</Link>
+						<Link className="navbar-brand" to="/reddit/">REDDIT-CLONE</Link>
 						<ul className="nav navbar-nav">
 							<li><Link to="/r/funny" className="nav-links">Funny</Link></li>
 							<li><Link to="/r/food" className="nav-links">Food</Link></li>
