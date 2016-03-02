@@ -10,8 +10,8 @@ export default (
 
 	<Route path="/reddit" component={App}>
 		<IndexRoute component={Index} /> 
-		<Route path="r/:subreddit" component={Subreddit} />
-		<Route path="r/:subreddit/comments/:id/:title" component={Comments} />
+		<Route path="/r/:subreddit" component={Subreddit} />
+		<Route path="/r/:subreddit/comments/:id/:title" component={Comments} />
 	</Route>
 
 )

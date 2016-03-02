@@ -25,14 +25,14 @@ class Subreddit extends Component {
 				</div>
 				{ (data.thumbnail !== "" ? <div className="col-lg-1"><img className="thumbnail" src={data.thumbnail === "self" ? "http://www.mariogame.info/images/icon-facebook.png" : data.thumbnail } /></div> : null) }
 				<div className="col-lg-10">
-					<h4 className="title"><Link 	to={(data.domain === `self.${data.subreddit}` ? `reddit${data.permalink}` : data.url)} 
+					<h4 className="title"><Link 	to={(data.domain === `self.${data.subreddit}` ? data.permalink : data.url)} 
 								target={(data.domain === `self.${data.subreddit}` ? "" : "_blank")}>{data.title}
 						</Link>
 						<span className="domain"> ({data.domain})</span>
 					</h4>
 
 					<p className="details">submitted {moment(data.time * 1000).fromNow()} by <span className="author">{data.author}</span></p>
-					<p className="details"><Link to={`reddit${data.permalink}`} className="comments">{data.num_comments} comments</Link></p>
+					<p className="details"><Link to={data.permalink} className="comments">{data.num_comments} comments</Link></p>
 				</div>
 			</div>
 

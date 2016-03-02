@@ -27,7 +27,7 @@ class App extends Component {
 
 		this.props.Search(this.state.subreddit)
 			.then(()=>{
-				browserHistory.push(`reddit/r/${this.state.subreddit}`)
+				browserHistory.push(`/r/${this.state.subreddit}`)
 			});
 	}
 
@@ -38,16 +38,16 @@ class App extends Component {
 				<div className="container-fluid">
 
 					<div className="navbar-header">
-						<Link className="navbar-brand" to="/reddit">Reddit-Clone</Link>
+						<Link className="navbar-brand" to="/reddit">REDDIT-CLONE</Link>
 						<ul className="nav navbar-nav">
-							<li><Link to="reddit/r/funny/" className="nav-links">Funny</Link></li>
-							<li><Link to="reddit/r/food" className="nav-links">Food</Link></li>
-							<li><Link to="reddit/r/movies" className="nav-links">Movies</Link></li>
-							<li><Link to="reddit/r/diy" className="nav-links">DIY</Link></li>
-							<li><Link to="reddit/r/aww" className="nav-links">Aww</Link></li>
-							<li><Link to="reddit/r/showerthoughts" className="nav-links">Shower Thoughts</Link></li>
-							<li><Link to="reddit/r/todayilearned" className="nav-links">Today I Learned</Link></li>
-							<li><Link to="reddit/r/gifs" className="nav-links">Gifs</Link></li>
+							<li><Link to="/r/funny" className="nav-links">Funny</Link></li>
+							<li><Link to="/r/food" className="nav-links">Food</Link></li>
+							<li><Link to="/r/movies" className="nav-links">Movies</Link></li>
+							<li><Link to="/r/diy" className="nav-links">DIY</Link></li>
+							<li><Link to="/r/aww" className="nav-links">Aww</Link></li>
+							<li><Link to="/r/showerthoughts" className="nav-links">Shower Thoughts</Link></li>
+							<li><Link to="/r/todayilearned" className="nav-links">Today I Learned</Link></li>
+							<li><Link to="/r/gifs" className="nav-links">Gifs</Link></li>
 						</ul>
 					</div>
 
