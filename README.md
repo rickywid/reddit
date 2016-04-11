@@ -1,23 +1,15 @@
-# ReduxSimpleStarter
+# Reddit Clone Built with React
 
-###Getting Started###
+## Overview
+A Reddit clone created in React. Users are able to view topics, comments and search subreddits. Axios was used to perform AJAX requests to pull data from Reddit's API.
 
-There are two methods for getting started with this repo.
-
-####Familiar with Git?#####
-Checkout this repo, install depdencies, then start the gulp process with the following:
-
+## Installation
 ```
-	> git clone git@github.com:StephenGrider/ReduxSimpleStarter.git
-	> cd ReduxSimpleStarter
-	> npm install
-	> npm start
+git clone https://github.com/rickywid/reddit-clone.git
+npm install
+npm start
+browser url: localhost:8080
 ```
+## DEMO
+See a [Live Demo] (https://rickywid.github.io/reddit-clone/)
 
-####Not Familiar with Git?#####
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
-```
-	> npm install
-	> npm start
-```
